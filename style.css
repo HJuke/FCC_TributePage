@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: #000000;
+    color: #FFFFFF
+  }
+  
+  #title {
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 3rem;
+    font-weight: 20;
+  }
+  
+  header p {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-caption {
+    margin: .9rem 0 .3rem 0;
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 550px) {
+    #img-caption {
+      font-size: 1.5rem;
+    }
+  }
+  
+  #headline {
+    font-size: 2.8rem;
+  }
+  
+  ul {
+    max-width: 550px;
+    margin: 0 auto .2rem auto;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 1.4rem;
+  }
+  
+  
+  li {
+    padding: .1rem;
+    list-style-type: square;
+  }
+  li ul {
+    margin: 16px 0;
+    padding-left: 2rem;
+  }
+  li ul li {
+    list-style-type: circle;
+  }
+  
+  #tribute-link {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+  }
+  a {
+    text-decoration: none;
+    color: #808080;
+  }
